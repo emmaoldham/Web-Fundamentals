@@ -6,6 +6,8 @@ nav a {
     text-align: center;
     color: #313335;
     text-decoration: none;
+    font-family: verdana, helvetica, sans-serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +23,10 @@ main section {
 }
 body {
     background-color: #F9F6F1;
+    font-size: 22px;
+    font-family: verdana, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #D4AB87;
@@ -28,37 +34,55 @@ header {
 nav a:hover {
     background-color: #415E31;
     color: #F9F6F1;
+    font-family: verdana, helvetica, sans-serif;
 }
 .book, .join {
     background-color: #D4AB87;
     color: #F9F6F1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #D4AB87;
     color: #F9F6F1;
+    font-family: verdana, helvetica, sans-serif;
 }
 #background {
     background-color: #415E31;
 }
 .msg {
     background-color: #D4AB87;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #D4AB87;
     color: #313335;
+    font-family: verdana, helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #313335;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #313335;
 }
 .msg h2 {
     color: #313335;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+
 }
 .msg p {
     color: #313335;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #313335;
@@ -71,7 +95,8 @@ footer a:hover {
     width: 80px;
 }
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 #hero-image {
     width: 100%
@@ -81,4 +106,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+} 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px #313335 solid;
+}
+main section img {
+    box-sizing: border-box;
 }
