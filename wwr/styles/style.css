@@ -60,7 +60,7 @@ nav a:hover {
 }
 footer {
     background-color: #D4AB87;
-    color: #313335;
+    color: #415E31;
     font-family: verdana, helvetica, sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
@@ -85,7 +85,7 @@ h4 {
     padding-bottom: 15px;
 }
 footer a {
-    color: #313335;
+    color: #415E31;
     text-decoration: none;
 }
 footer a:hover {
