@@ -45,6 +45,9 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
+.join {
+    background-color: #415E31;
+}
 .book:hover, .join:hover {
     background-color: #D4AB87;
     color: #F9F6F1;
