@@ -76,13 +76,13 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 100px; 
+  width: 150px; 
   height: 100px; 
   background-color: green;
   grid-column: 1;
 } 
 .yellow3 {
-  width: 100px; 
+  width: 150px; 
   height: 100px; 
   background-color: gold; 
   grid-column: 2;
