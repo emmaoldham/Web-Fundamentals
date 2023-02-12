@@ -143,6 +143,7 @@
   width: 200px; 
   height: 200px; 
   background-color: green; 
+  float: left;
   z-index: 1;
 } 
 .yellow5 {
