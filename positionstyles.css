@@ -97,26 +97,37 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .red4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1;
+  grid-row: 1/4;
 } 
 .green4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2;
+  grid-row: 1/2;
 } 
 .yellow4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 2;
+  grid-row: 2/3;
 } 
 .blue4 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 2;
+  grid-row: 3/4;
 } 
 /* Activity 5 styles */ 
 .content5 {
