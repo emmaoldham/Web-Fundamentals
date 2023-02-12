@@ -106,7 +106,7 @@
   height: 100px; 
   background-color: red; 
   grid-column: 1;
-  grid-row: 1/4;
+  grid-row: 1/5;
 } 
 .green4 {
   width: 100%; 
