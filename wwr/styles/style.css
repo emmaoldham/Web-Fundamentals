@@ -47,13 +47,13 @@ nav a:hover {
     text-align: center;
 }
 .home-title {
-    color: #D4AB87;
+    color: #FFFFFF;
     font-family: 'Trebuchet MS', verdana, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 #hero-msg h4 {
-    color: #FFFFFF;
+    color: #D4AB87;
 }
 #hero-box {
     grid-column: 1/4;
