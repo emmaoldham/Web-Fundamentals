@@ -136,7 +136,7 @@ main section img {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #313335;
 }
 .card-img, .mountains {
     width: 100%;
@@ -144,7 +144,7 @@ main section img {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #313335;
 }
 .msg h2 {
     color: #313335;
