@@ -37,18 +37,16 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .home-title {
-    color: #D4AB87;
+    color: #415E31;
     font-family: 'Trebuchet MS', verdana, sans-serif;
     font-size: 2em;
     margin-top: 10px;
