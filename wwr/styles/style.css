@@ -239,9 +239,9 @@ footer .social img {
     }
 }
 
-/* -------------- River HERO Section -------------- */
+/* -------------- Rivers HERO Section -------------- */
 #rivers-hero {
-    display: grid;
+    display: grid 1fr;
 }
 .river-hero-img {
     width: 100%;
@@ -251,5 +251,9 @@ footer .social img {
     font-family: 'Trebuchet MS', verdana, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
 }
 
+/* -------------- Rivers MAIN Section -------------- */
