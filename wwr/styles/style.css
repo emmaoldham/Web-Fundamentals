@@ -290,12 +290,15 @@ footer .social img {
 }
 .idaho-img {
     grid-column: 2/3;
+    grid-row: 1/2;
 }
 .utah-img {
     grid-column: 1/2;
+    grid-row: 2/3;
 }
 .arizona-img {
     grid-column: 2/3;
+    grid-row: 3/4;
 }
 #idaho {
     grid-row: 1/2;
