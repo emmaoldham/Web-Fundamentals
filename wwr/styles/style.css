@@ -272,3 +272,12 @@ footer .social img {
     font-family: verdana, helvetica, sans-serif;
     color: #415E31;
 }
+.idaho-img {
+    grid-column: 2/3;
+}
+.utah-img {
+    grid-column: 1/2;
+}
+.arizona-img {
+    grid-column: 2/3;
+}
