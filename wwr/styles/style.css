@@ -259,3 +259,16 @@ footer .social img {
 }
 
 /* -------------- Rivers MAIN Section -------------- */
+#rivers-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.rivers-text {
+    font-family: verdana, helvetica, sans-serif;
+    color: #313335;
+}
+.rivers-titles {
+    font-family: verdana, helvetica, sans-serif;
+    color: #415E31;
+}
