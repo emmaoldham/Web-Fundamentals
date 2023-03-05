@@ -262,7 +262,7 @@ footer .social img {
 #rivers-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .idaho-title {
     font-family: verdana, helvetica, sans-serif;
