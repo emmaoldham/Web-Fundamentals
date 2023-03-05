@@ -243,71 +243,58 @@ footer .social img {
 #rivers-hero {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
 }
 .river-hero-img {
     width: 100%;
-    height: 550px;
+    z-index: 0;
 }
 .rivers-title {
     color: #FFFFFF;
     font-family: 'Trebuchet MS', verdana, sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
-    justify-content: center;
-    align-content: center;
+    font-size: 5em;
+    position: absolute;
+    text-align: center;
     z-index: 1;
+    top: 200px;
+    left: 50%;
+    margin-left: -1.5em;
 }
 
 /* -------------- Rivers MAIN Section -------------- */
 #rivers-info {
+    margin: 50px;
+}
+#idaho, #utah, #arizona {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 40px;
+    gap: 50px;
 }
-.idaho-title {
+.idaho-title, .utah-title, .arizona-title {
     font-family: verdana, helvetica, sans-serif;
     color: #415E31;
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
-.idaho-text {
+.idaho-text, .utah-text, .arizona-text {
     font-family: verdana, helvetica, sans-serif;
     color: #313335;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+.idaho-img, .utah-img, .arizona-img {
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/2;
+    grid-row: 1/span 2;
 }
 .utah-title {
-    font-family: verdana, helvetica, sans-serif;
-    color: #415E31;
+    grid-column: 2/2;
 }
 .utah-text {
-    font-family: verdana, helvetica, sans-serif;
-    color: #313335;
-    grid-column: 2/3;
+    grid-column: 2/2;
 }
-.arizona-title {
-    font-family: verdana, helvetica, sans-serif;
-    color: #415E31;
-}
-.arizona-text {
-    font-family: verdana, helvetica, sans-serif;
-    color: #313335;
-}
-.idaho-img {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.utah-img {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.arizona-img {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-#idaho {
-    grid-row: 1/2;
-}
-#utah {
-    grid-row: 2/3;
-}
-#arizona {
-    grid-row: 3/4;
+.utah-img { 
+    grid-column: 1/1;
 }
