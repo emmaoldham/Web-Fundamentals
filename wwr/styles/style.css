@@ -238,3 +238,18 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* -------------- River HERO Section -------------- */
+#rivers-hero {
+    display: grid;
+}
+.river-hero-img {
+    width: 100%;
+}
+.rivers-title {
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
