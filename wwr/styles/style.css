@@ -255,7 +255,7 @@ footer .social img {
     margin-top: 10px;
     justify-content: center;
     align-content: center;
-    z-index: 3;
+    z-index: 1;
 }
 
 /* -------------- Rivers MAIN Section -------------- */
@@ -263,6 +263,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 40px;
 }
 .idaho-title {
     font-family: verdana, helvetica, sans-serif;
