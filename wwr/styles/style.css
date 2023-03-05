@@ -280,6 +280,7 @@ footer .social img {
 .utah-text {
     font-family: verdana, helvetica, sans-serif;
     color: #313335;
+    grid-column: 2/3;
 }
 .arizona-title {
     font-family: verdana, helvetica, sans-serif;
