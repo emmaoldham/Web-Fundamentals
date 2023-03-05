@@ -128,6 +128,9 @@ main section img {
     color: #FFFFFF;
     font-family: verdana, helvetica, sans-serif;
 }
+.join:hover {
+    background-color: #313335;
+}
 #background {
     background-color: #415E31;
 }
