@@ -169,6 +169,7 @@ footer .social img {
     }
     #home-img {
         width: 30%;
+        margin: 20px auto;
     }
     #background {
         display: none;
