@@ -165,6 +165,7 @@ footer .social img {
     #home-img, #home-msg { 
         margin: 50px auto;
         width: 60%;
+        justify-self: center;
     }
     #home-img {
         width: 30%;
