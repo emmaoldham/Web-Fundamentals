@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #CBC0BE;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: kaushan-script, satisfy, shadows Into light;
-  --paragraph-font: nunito, libre franklin, sans-serif;
+  --heading-font: 'Trebuchet MS', verdana, sans-serif;
+  --paragraph-font: verdana, helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #C69678;  /* headlines on a white background */ 
