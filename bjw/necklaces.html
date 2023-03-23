@@ -27,12 +27,51 @@
                 <h1 class="necklaces-title">Necklaces</h1>
             </section>
         </div>
-        <main class="home-grid">
-            <p>
-                On this page we have a gallery of gold necklaces of beautiful quality, there are many different lengths and styles to match and contrast with any neckline. Pair them together or wear them alone, any way it just might be the style you are looking for. A little history on necklaces you might find interesting is that necklaces may have been one of the earliest kinds of adornment worn on the body. A long time before malleable and precious metals were used to create necklaces, prehistoric peoples often used natural materials such as feathers, bone, shells, and plant materials to create their necklaces. The first necklaces were from depicted in the style and art of the Ancient East, and early necklaces made of precious metals with inset stones were created in Europe. A fun fact about necklaces is because of where they are worn, necklaces are a great symbol of sentiment and are the perfect chance for someone to keep something important in their life close to their heart.
+        <main class="necklace-grid">
+            <p id="necklace-info">
+                On this page we have a gallery of gold necklaces of beautiful quality, there are many different lengths and styles to match and contrast with any neckline. Pair them together or wear them alone, any way it just might be the style you are looking for. A little history on necklaces you might find interesting is that necklaces may have been one of the earliest kinds of adornment worn on the body. A long time before malleable and precious metals were used to create necklaces, prehistoric peoples often used natural materials such as feathers, bone, shells, and plant materials to create their necklaces. The first necklaces were from depicted in the style and art of the Ancient East, and early necklaces made of precious metals with inset stones were created in Europe.
             </p>
-            <img class="necklace-galley-img" src="images/necklace.jpg" alt="Necklace">
-            <img class="necklace-galley-img" src="images/pearlnecklace.jpg" alt="Necklace">
+            <img id="necklace-gallery-img1" src="images/necklace.jpg" alt="Necklace">
+            <img id="necklace-gallery-img2" src="images/pearlnecklace.jpg" alt="Necklace">
+           
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Fun Fact:</button>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>A fun fact about necklaces is because of where they are worn, necklaces are a great symbol of sentiment and are the perfect chance for someone to keep something important in their life close to their heart.</p>
+                </div>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+            </script>
+            </div>
         </main>
         <footer>
             <p>Jewelry Collections &copy; 2023 - Emma Oldham</p>
