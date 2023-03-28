@@ -266,13 +266,16 @@ footer .social img {
     #hero {
         margin-top: 0;
     }
-    #hero-msg, .necklaces-title .br-ear-title {
+    #hero-msg {
         margin-top: 0;
+    }
+    .necklaces-title .br-ear-title {
+        margin-top: 50px;
     }
     #hero-msg h4 {
         display: none;
     }
-    .home-title, .necklaces-title{
+    .home-title, .necklaces-title, .br-ear-title {
         font-size: 25px;
         color: #844F33;
     }
