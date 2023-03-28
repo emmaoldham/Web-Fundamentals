@@ -102,7 +102,8 @@ main {
 .necklaces-title {
     color: #C69678;
     font-size: 4em;
-    margin: auto;
+    margin: -70px 0 -50px 0;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
 }
 body { 
     background-color: #FFFFFF;
@@ -114,13 +115,13 @@ body {
 .necklace-grid {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
-    grid-template-rows: 2fr 0.5fr 3fr 1fr 0.5fr;
+    grid-template-rows: 2fr 0fr 3fr 1fr 0fr;
 }
 #necklace-info {
     color: #844F33;
     grid-column: 2/5;
     grid-row: 1/2;
-    margin-top: 200px;
+    margin: 100px 0 -500px 0;
 }
 #necklace-gallery-img1, #necklace-gallery-img2 {
     width: 100%;
@@ -179,14 +180,46 @@ body {
     padding: 20px; 
     width: 300px;
     height: 100px; 
+    margin: -50px 0 -500px 0;
 }
 #myBtn:hover {
     background-color: #CBC0BE;
     border: 2px solid #CBC0BE;
 }
-/* -------------- Necklaces Section -------------- */
+/* -------------- Bracelets Section -------------- */
 .br-ear-title {
+    color: #C69678;
+    font-size: 4em;
+    margin: -70px auto -50px auto;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+}
+body { 
+    background-color: #FFFFFF;
+    font-size: 19px;
+    font-family: verdana, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.br-ear-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+}
+#br-ear-info {
     color: #844F33;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 100px 100px 100px 100px;
+}
+#br-ear-galley-img1, #br-ear-galley-img2 {
+    width: 60%;
+    margin: 0 100px 0 100px;
+}
+#br-ear-galley-img1 {
+    justify-self: left;
+}
+#br-ear-galley-img2 {
+    justify-self: right;
 }
 
 /* -------------- FOOTER Section -------------- */
@@ -233,17 +266,17 @@ footer .social img {
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, .necklaces-title {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .necklaces-title{
         font-size: 25px;
         color: #844F33;
     }
-    #home-img, #home-msg { 
+    #home-img, #home-msg, #necklace-info, #necklace-gallery-img1, #necklace-gallery-img2, #br-ear-gallery-img1, #br-ear-gallery-img2 { 
         margin: 50px auto;
         width: 60%;
         justify-self: center;
@@ -251,11 +284,11 @@ footer .social img {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    /* .mountains, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
-    }
+    } */
     footer {
         margin-top: 25px;
     }
