@@ -276,7 +276,7 @@ footer .social img {
         font-size: 25px;
         color: #844F33;
     }
-    #home-img, #home-msg, #necklace-info, #necklace-gallery-img1, #necklace-gallery-img2, #br-ear-gallery-img1, #br-ear-gallery-img2 { 
+    #home-img, #home-msg, #necklace-info, #necklace-gallery-img1, #necklace-gallery-img2, #br-ear-gallery-img1, #br-ear-gallery-img2, #myBtn { 
         margin: 50px auto;
         width: 60%;
         justify-self: center;
