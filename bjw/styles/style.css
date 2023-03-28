@@ -280,6 +280,7 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
         justify-self: center;
+        align-self: center;
     }
     #background {
         display: none;
