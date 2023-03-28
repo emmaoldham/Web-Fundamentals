@@ -252,7 +252,7 @@ footer .social img {
 
 /* -------------- MEDIA QUERY -------------- */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid , .necklace-grid, .br-ear-grid{
         display: block;
         height: auto;
     }
