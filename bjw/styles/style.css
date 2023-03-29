@@ -270,7 +270,7 @@ footer .social img {
         margin-top: 0;
     }
     .necklaces-title .br-ear-title {
-        margin-top: 50px;
+        margin-top: 200px;
     }
     #hero-msg h4 {
         display: none;
@@ -284,6 +284,7 @@ footer .social img {
         width: 60%;
         justify-self: center;
         align-self: center;
+        margin: auto;
     }
     #background {
         display: none;
