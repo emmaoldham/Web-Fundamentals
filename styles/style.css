@@ -1,0 +1,9 @@
+#home-title {
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+    color: #F84F71;
+}
+body {
+    justify-content: center;
+    align-content: center;
+}
