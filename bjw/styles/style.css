@@ -222,6 +222,45 @@ body {
     justify-self: right;
 }
 
+/* -------------- CONTACT US Section -------------- */
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 280px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.home-title {
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', verdana, sans-serif;
+    font-size: 4em;
+    margin-top: 80px;
+    z-index: 1;
+}
+#hero-msg h4 {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-image {
+    width: 100%
+}
+.button-box {
+    text-align: center;
+}
+#fill-msg {
+    justify-self: center;
+}
+
 /* -------------- FOOTER Section -------------- */
 footer {
     background-color: #C69678;
